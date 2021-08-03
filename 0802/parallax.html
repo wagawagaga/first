@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior:smooth;
+        }
+       
+        nav{
+            width: 100%;
+            height: 30px;
+            background-color: rgba(34, 123, 139, 0.64);
+            text-align: center;
+            line-height: 30px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+
+
+            
+        }
+        a{
+            margin-right:  30px;
+            color: blanchedalmond;
+            font-size: 16px;
+        }
+        a:hover{
+            color: chartreuse;
+            font-weight: bold;
+        }
+        body{
+            margin: 0px;
+            padding-top: 30px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+        .p1{
+            width: 100%;
+            height: 625px;
+            /* background-color: chartreuse; */
+            background-image: url(./素材/20210519005988.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 100%;
+            position: relative;
+            background-attachment: fixed;
+          
+        }
+        .p1word{
+            width: 300px;
+            height: 50px;
+            background: rgba(9,121,115,0.8);
+            background: linear-gradient(90deg, rgba(9,121,115,1) 0%, rgba(255,255,255,0.08925075157015927) 100%);
+            line-height: 50px;
+            position: absolute;
+            top: 375px;
+            left: 800px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            
+
+            
+           
+        }
+        .t1{
+            width: 100%;
+            height: 100px;
+            background-color: tan;
+            padding: 30px 60px;
+            box-sizing: border-box;
+        }
+        .p2{
+            width: 100%;
+            height: 600px;
+            /* background-color: darkblue; */
+            background-image: url(./素材/5cbc5e7c10abfdbb2c0edb6112de3234_s.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            position: relative;
+            background-attachment: fixed;
+            
+
+        }
+        .p2word{
+            width: 300px;
+            height: 50px;
+            background: rgb(9,121,115);
+            background: linear-gradient(90deg, rgba(9,121,115,1) 0%, rgba(255,255,255,0.08925075157015927) 100%);
+            position: absolute;
+            top: calc(50% - 25px);
+            right: calc(50% - 150px);
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+
+        }
+        .t2{
+            width: 100%;
+            height: 100px;
+            background-color: tan;
+            padding: 30px 60px;
+            box-sizing: border-box;
+        }
+        .p3{
+            width: 100%;
+            height: 700px;
+            /* background-color: gold; */
+            width: 100%;
+            height: 500px;
+            background-color: darkblue;
+            background-image: url(./素材/b20b9a57478d9c66d4164e53657cb82e.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            position: relative;
+            background-attachment: fixed;
+
+        }
+        .p3word{
+            width: 300px;
+            height: 50px;
+            background: rgb(9,121,115);
+
+            background: linear-gradient(90deg, rgba(9,121,115,1) 0%, rgba(255,255,255,0.08925075157015927) 100%);
+            position: absolute;
+            top: calc(50% - 25px);
+            right: calc(50% - 150px);
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+        .t3{
+            width: 100%;
+            height: 100px;
+            background-color: tan;
+            padding: 30px 60px;
+            box-sizing: border-box;
+        }
+        .p4{
+            width: 100%;
+            height: 600px;
+            /* background-color: silver; */
+            background-image: url(./素材/shutterstock_1086193616-1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            position: relative;
+            background-attachment: fixed;
+            
+        }
+        .p4word{
+            width: 200px;
+            height: 50px;
+            background: rgb(9,121,115);
+            line-height: 50px;
+            text-align: center;
+            font-size: 24px;
+            background: linear-gradient(90deg, rgba(9,121,115,1) 0%, rgba(255,255,255,0.08925075157015927) 100%);
+            position: absolute;
+            top: calc(50% - 25px);
+            right: calc(50% - 100px);
+            color: white;
+        
+        }
+        .t4{
+            width: 100%;
+            height: 100px;
+            background-color: tan;
+            padding: 30px 60px;
+            box-sizing: border-box;
+        }    
+        #ank1{
+            position: absolute;
+            top: -50px;
+        }
+        #ank2{
+            position: absolute;
+            top: -30px;
+        }
+        #ank3{
+            position: absolute;
+            top: -30px;
+        }
+        #ank3{
+            position: absolute;
+            top: -30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#ank1">可愛的貓</a>
+        <a href="#ank2">太可愛的貓</a>
+        <a href="#ank3">太太可愛的貓</a>
+        <a href="#ank4">太太太可愛的貓</a>
+    </nav>
+    
+    <div class="p1" >
+        <div id="ank1"></div>
+        <div class="p1word" >可愛的貓</div>
+    </div>
+    <div class="t1">這裡有隻可愛的貓
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus nam, cum pariatur aperiam, ad rem officia delectus nisi amet culpa autem fugiat illum! Culpa numquam sapiente quisquam minus ex.
+    </div>
+    <div class="p2" >
+        <div id="ank2"></div>
+        <div class="p2word" >太可愛的貓</div>
+    </div>
+    <div class="t2">這裡有隻太可愛的貓
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus nam, cum pariatur aperiam, ad rem officia delectus nisi amet culpa autem fugiat illum! Culpa numquam sapiente quisquam minus ex.
+    </div>
+    <div class="p3">
+        <div id="ank3"></div>
+        <div class="p3word" >太太可愛的貓</div>
+    </div>
+    <div class="t3">這裡有隻太太可愛的貓
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus nam, cum pariatur aperiam, ad rem officia delectus nisi amet culpa autem fugiat illum! Culpa numquam sapiente quisquam minus ex.
+    </div>
+    <div class="p4">
+        <div id="ank4"></div>
+        <div class="p4word" >太太太可愛的貓</div>
+    </div>
+    <div class="t4">這裡有隻太太太可愛的貓
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, repellendus nam, cum pariatur aperiam, ad rem officia delectus nisi amet culpa autem fugiat illum! Culpa numquam sapiente quisquam minus ex.
+    </div>
+    
+   
+</body>
+</html>
